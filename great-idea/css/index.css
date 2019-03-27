@@ -64,3 +64,250 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.navigation{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin: 0 400px 0 400px;
+	justify-content: space-between;
+	}
+
+.navigation a{
+	color: grey;
+}
+
+header{
+	display: flex;
+	margin: 0 100px 0 100px;
+	align-items: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+header h1{
+	font-size: 100px;
+	width: 423px;
+	margin: 100px 50px 0 200px;
+	text-align: center;
+}
+
+header img{
+	flex-direction: row-reverse;
+	width: 550px;
+	margin: 100px 0 0 100px;
+}
+
+h1 button{
+	margin: 0 0 0 0;
+	width: 200px;
+	height: 50px;
+	border: 2px solid grey;
+	background-color: white;
+}
+
+hr.top{
+	margin: 50px 400px 0 400px;
+}
+
+section.top-content{
+display: flex;
+margin: 50px 400px 0 400px;
+flex-direction: column;
+flex-wrap: wrap;
+height: 100px;
+}
+
+.top-content h2{
+font-size: 20px;
+}
+
+h2.features{
+	margin: 0 0 10px 0;
+}
+
+p.features{
+	flex-direction: column;
+	width: 400px;
+}
+
+h2.about{
+	margin: 0 0 10px 0;
+	align-items: flex-end;
+}
+
+p.about{
+	align-items: flex-end;
+	width: 400px;
+}
+
+img.middle-img {
+	display: flex;
+	margin: auto;
+	padding: 50px 0 0 0;
+}
+
+section.bottom-content{
+	display: flex;
+	margin: 50px 400px 0 400px;
+	flex-direction: column;
+	flex-wrap: wrap;
+	height: 170px;
+}
+
+section.bottom-content h2{
+	font-size: 20px;
+}
+
+h2.services{
+	margin: 0 0 10px 0;
+}
+
+p.services{
+	flex-direction: column;
+	width: 200px;
+}
+
+
+h2.product{
+	margin: 0 0 10px 0;
+}
+
+p.product{
+	flex-direction: column;
+	width: 200px;
+}
+
+h2.vision{
+	margin: 0 0 10px 0;
+}
+
+p.vision{
+	flex-direction: column;
+	width: 200px;
+}
+
+section.contact h2{
+	font-size: 20px;
+	margin: 40px 0 0 400px;
+}
+
+section.contact p{
+	margin: 100px 0 0 400px;
+}
+
+footer{
+	margin: 40px 0 100px 0;
+	text-align: center;
+}
+
+
+
+/* Service css */
+
+
+
+.navigation-s{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	margin: 20px 400px 0 400px;
+}
+
+.navigation-s a{
+	color:grey;
+}
+
+img.services-header-img{
+	display: flex;
+	margin: auto;
+	margin-top: 50px;
+}
+
+hr.top{
+margin: 0 400px 0 400px;
+border: 1px solid black;
+}
+
+.top-content-s h2{
+	font-size: 40px;
+	margin: 50px 400px 0 400px;
+	width: 400px;
+	height: 50px;
+
+}
+
+.top-content-s p{
+	margin: 20px 400px 20px 400px;
+}
+
+button{
+	border-radius: 5px;
+	background-color: white;
+	height: 50px;
+	width: 200px;
+	border: 1px solid black;
+}
+
+section.tabs{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	height: 850px;
+	width: 950px;
+	margin: auto;
+	align-content: space-around;
+}
+
+section.tabs div{
+	display: flex;
+	flex-direction: column;
+	background-color: rgb(238, 237, 237);
+	border: 1px solid black;
+	width: 400px;
+	height: 250px;
+	margin-top: auto;
+}
+
+section.tabs div h2{
+	font-size: 20px;
+	margin: 20px;
+}
+
+section.tabs div p{
+	margin: 0 20px 20px 20px;
+}
+
+section.tabs div button{
+	margin-left: 30px;
+	text-align: center;
+}
+
+hr.bottom{
+	margin: 50px 400px 0 400px;
+	border: 1px solid black;
+}
+
+section.facts{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	margin: 50px 400px 0 400px;
+	width: 800px;
+	height: 400px;
+}
+
+.facts h2{
+	font-size: 20px;
+}
+
+.facts p{
+	width: 400px;
+	margin: 0 50px 10px 0;
+}
+
+.facts li{
+	margin: 10px 0 10px 0;
+}
+
